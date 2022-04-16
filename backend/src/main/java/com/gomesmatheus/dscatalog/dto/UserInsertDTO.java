@@ -1,5 +1,8 @@
 package com.gomesmatheus.dscatalog.dto;
 
+import com.gomesmatheus.dscatalog.services.validation.UserInsertValid;
+
+@UserInsertValid
 public class UserInsertDTO extends UserDTO {
 	private static final long serialVersionUID = 1L;
 
