@@ -39,7 +39,6 @@ public class ProductResourceIT {
 		existingId = 1L;
 		nonExistingId = 999L;
 		countTotalProducts = 25L;
-		
 	}
 	
 	@Test
@@ -88,6 +87,5 @@ public class ProductResourceIT {
 					.accept(MediaType.APPLICATION_JSON));
 		
 		result.andExpect(status().isNotFound());
-		
 	}
 }
